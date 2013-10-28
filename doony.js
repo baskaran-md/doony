@@ -420,7 +420,8 @@
 
     var doonyTitleLink = $("#top-panel a").first();
     var domain = getSubdomain(window.location.hostname);
-    doonyTitleLink.html("<div id='doony-title'>" + domain + "</div>");
+    var logo = "<img src='/userContent/logo.png' width='90px'>"
+    doonyTitleLink.html("<div id='doony-title'>" + logo + " - " + domain + "</div>");
 
     var color = colors[Math.abs(hashCode(domain)) % colors.length];
     $("#top-panel").css('background-color', color);
