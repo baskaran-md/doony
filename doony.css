@@ -700,7 +700,7 @@ textarea {
  */
 body > pre,
 #main-panel > pre {
-  font-size: 14px;
+  font-size: 12px;
   background-color: #111;
   color: #eee;
   padding: 10px 10px 30px;
