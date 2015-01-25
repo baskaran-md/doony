@@ -888,3 +888,9 @@ a.yuimenulabel, a.yuimenuitemlabel,
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
+.tabBar [type=radio]:checked ~ a {
+  color: #fc4530;
+  border: none;
+  border-bottom: none;
+}
